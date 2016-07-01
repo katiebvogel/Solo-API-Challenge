@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script   src="https://code.jquery.com/jquery-3.0.0.min.js"   integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="   crossorigin="anonymous"></script>
+    <script src = "app.js" charset="utf-8"></script>
+    <link type="text/css" rel="stylesheet" href="stylesheet.css" />
+    <!-- <link rel="stylesheet" href="stylesheet.css" meta charset="utf-8" /> -->
+    <title>Solo API Challenge Katie </title>
+  </head>
+  <body>
+    <div class = wrapper>
+    <header>
+      <h1>Solo API Challenge 6/30/16</h1>
+    </header>
+    <section>
+      <h1>Katie's Top Pics Picks</h1>
+      <div class = "topMovies">
+        <div class="movie" id ="one">
+
+        </div>
+        <div class = "movie" id ="two">
+
+        </div>
+        <div class = "movie" id ="three">
+
+        </div>
+      </div>
+
+      <div class = "row">
+        <form class = "form-search" id = "search-by-title" onsubmit="return false;">
+          <fieldset>
+            <legend>By Title</legend>
+          </fieldset>
+          <div>
+            <label class="control-label" for="t">Title:</label>
+            <input type="text" id="t" class="input" />
+            <label class="control-label" for="y">Year:</label>
+            <input type="text" id="y" name="y" class="input-small" style="width: 100px;">
+            <label class="control-label">Plot:</label>
+            <select name="plot" style="width: 100px;">
+                <option value="short" selected="">Short</option>
+                <option value="full">Full</option>
+                <label class="response">Response:</label>
+                <select name="r" style="width: 100px;">
+                    <option value="json">JSON</option>
+                    <option value="xml">XML</option>
+                </select>
+                <button id="search-by-title-button" type="button" class="btn">Search</button>
+                <button id="search-by-title-reset" type="reset" class="btn">Reset</button>
+            </select>
+          </div>
+        </form>
+      </div>
+      <div class='your-info'>
+      </div>
+    </secion>
+  </wrapper>
+</body>
+</html>

@@ -1,0 +1,45 @@
+body {
+background-color: #800020;
+align-content: center;
+}
+header h1 {
+
+  width: 60%;
+  text-align: center;
+  font-size: 32px;
+  margin: 20px auto;
+  box-shadow: 2px 2px 2px grey;
+}
+h1 {
+text-align: center;
+font-size: 60px;
+background-color: white;
+box-shadow: -10px -2px 5px grey;
+width: 70%;
+margin: 0 auto;
+}
+.wrapper {
+  height: 1000px;
+  margin: 0 auto;
+  width: 90%;
+  background-color: burlywood;
+  }
+  .topMovies {
+    margin: 20px;
+  display: block;
+  margin-left: 10%;
+  /*position: relative;*/
+}
+.movie {
+  text-align: center;
+ display: inline-block;
+  width: 30%;
+}
+h2 {
+  text-align: center;
+
+}
+img {
+  border: solid 2px grey;
+  border-radius: 3px;
+}
